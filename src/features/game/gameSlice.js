@@ -24,7 +24,7 @@ const gameSlice = createSlice({
       state.isDead = true;
     },
     getFaceEmotion: (state, action) => {
-      if (action.payload) {
+      if (action.payload.length) {
         state.faceEmotionHappyScore = action.payload[0].expressions.happy;
       }
     },
