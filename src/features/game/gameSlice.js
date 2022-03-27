@@ -24,7 +24,6 @@ const gameSlice = createSlice({
       state.isDead = true;
     },
     getFaceEmotion: (state, action) => {
-      //커밋 확인 위한 주석
       if (action.payload) {
         state.faceEmotionHappyScore = action.payload[0].expressions.happy;
       }
