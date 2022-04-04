@@ -100,6 +100,7 @@ https://user-images.githubusercontent.com/96522144/158065592-c8e80a69-4aaf-4ada-
 
 ### Installation
 
+- Frontend
 ```
 git clone https://github.com/woongminKi/dino-run-frontend.git
 npm install
@@ -107,9 +108,30 @@ npm run start
 ```
 
 ```
+REACT_APP_SERVER_URL=http://localhost:8000
+REACT_APP_API_KEY=YOUR FIREBASE API KEY
+REACT_APP_AUTH_DOMAIN=YOUR FIREBASE AUTH DOMAIN
+REACT_APP_PROJECT_ID=YOUR FIREBASE PROJECT ID
+REACT_APP_STORAGE_BUCKET=YOUR FIREBASE STORAGE BUCKET
+REACT_APP_MESSAGING_SENDER_ID=YOUR FIREBASE MESSAGE SENDER ID
+REACT_APP_APP_ID=YOUR FIREBASE APP ID
+```
+
+- Backend
+```
 git clone https://github.com/woongminKi/dino-run-backend.git
 npm install
 npm run start
+```
+
+```
+PORT=8000
+MONGO_URL=YOUR MONGO URL
+DINORUN_CLIENT_URL="http://localhost:3000"
+SECRET_KEY=YOUR SECRET KEY
+TEST_DB_LOCAL_URL=YOUR DB LOCAL URL
+ACCESS_KEY=YOUR ACCESS KEY
+SECURE_ACCESS_KEY=YOUR SECURE ACCESS KEY
 ```
 
 ## 🔥 Challenge
