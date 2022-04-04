@@ -100,6 +100,9 @@ https://user-images.githubusercontent.com/96522144/158065592-c8e80a69-4aaf-4ada-
 
 ### Installation
 
+- Local 환경에서 실행하기 위해서 몇 가지 사전 준비가 필요합니다.
+- 각 Repository를 Clone 한 후, .env 파일에 환경 변수를 입력해주세요.
+
 - Frontend
 ```
 git clone https://github.com/woongminKi/dino-run-frontend.git
